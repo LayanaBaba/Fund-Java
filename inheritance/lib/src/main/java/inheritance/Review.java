@@ -1,0 +1,56 @@
+package inheritance;
+
+public class Review{
+    private String body;
+    private String author;
+    private Integer stars;
+    private Restaurant restaurant;
+
+    public Review(String body, String author, Restaurant restaurant, Integer stars) {
+        if (stars<=5 && stars>=0){
+            this.body = body;
+            this.author = author;
+            this.restaurant = restaurant;
+            this.stars = stars;
+        }
+
+    }
+
+    public Restaurant getRestaurant() {
+        return restaurant;
+    }
+
+    public Integer getStars() {
+        return stars;
+    }
+
+
+
+    public String getBody() {
+        return body;
+    }
+
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Review{" +
+                "body='" + body + '\'' +
+                ", author='" + author + '\'' +
+                ", restaurant=" + restaurant +
+                ", stars=" + stars +
+                '}';
+    }
+}
