@@ -1,4 +1,5 @@
-# Fund-Java
+
+# Java fundementals:
 
 **Feature Tasks**
 
@@ -19,6 +20,12 @@
 * Analyzing Weather Data: Iterate through all of the data to find the min and max values. 
 
 * Tallying Election: accepts a List of Strings representing votes and returns one string to show what got the most votes.
+
+## Inheritance
+
+Composition over inheritance (or composite reuse principle) in object-oriented programming (OOP) is the principle that classes should achieve polymorphic behavior and code reuse by their composition (by containing instances of other classes that implement the desired functionality) rather than inheritance from a base or parent class.
+
+
 
 
 
