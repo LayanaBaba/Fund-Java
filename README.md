@@ -1,25 +1,31 @@
+
 # Java fundementals:
 
-## Feature Tasks
+**Feature Tasks**
 
-1- Pluralize
+* Pluralize: accepts a word and a number and returns a string with the word pluralized with an “s” if the number is zero, or greater than one.
 
-2- Flipping Coins
+* Flipping Coins: accepts an integer n and flips coins until n heads are flipped in a row. Simulate coin flipping by choosing a random number between 0 and 1.
 
-3- Command Line Clock
+* Command Line Clock: print out the current time to the console, second by second. 
 
-4- Rolling Dice
+* Rolling Dice: accepts an integer n and rolls a six-sided dice n times. The method should return an array containing the values of the rolls.
 
-5- Contains Duplicates
+* Contains Duplicates: returns true or false depending on whether the array contains duplicate values.
 
-6- Calculating Averages
+* Calculating Averages: accepts an array of integers and calculates and returns the average of all the values in the array.
 
-7- Arrays of Arrays
+* Arrays of Arrays: Given an array of arrays calculate the average value for each array and return the array with the lowest average.
 
-8- Analyzing Weather Data
+* Analyzing Weather Data: Iterate through all of the data to find the min and max values. 
 
-9- Tallying Election
+* Tallying Election: accepts a List of Strings representing votes and returns one string to show what got the most votes.
 
 ## Inheritance
 
 Composition over inheritance (or composite reuse principle) in object-oriented programming (OOP) is the principle that classes should achieve polymorphic behavior and code reuse by their composition (by containing instances of other classes that implement the desired functionality) rather than inheritance from a base or parent class.
+
+
+
+
+
